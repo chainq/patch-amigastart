@@ -7,8 +7,8 @@ Requires:     68020+
 Architecture: m68k-amigaos >= 3.0
 
 This small patcher fixes a bug in AmigaStart, that results
-in broken size output when more than 655350KiB (640MiB) of
-Fast Memory is available.
+in broken memory size display when more than 655350KiB
+(640MiB) of Fast Memory is available.
 
 This patcher is not endorsed or acknowledged or associated
 with the creator of AmigaStart, Ian J. Einman.
