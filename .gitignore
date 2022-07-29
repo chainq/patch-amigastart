@@ -1,0 +1,8 @@
+*.s
+*.o
+*.ppu
+*.tmp
+patchas
+testcode
+amigastart*
+m68k-elf-objdump
