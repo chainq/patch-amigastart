@@ -60,3 +60,6 @@ A: No.
 
 Q: Why did you write this in Pascal?  
 A: Because I wanted to.
+
+Q: How many times did you rewrite the patcher, because you accidentally overwrote the code?
+A: Twice
