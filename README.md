@@ -12,7 +12,7 @@ Zorro III Fast Memory can be potentially more than this limit as the Zorro III b
 allows 1.5GiB of addressing range.
 
 So I when as an experiment I expanded my Amiga 4000T beyond 640MiB, with the help
-of to BigRAM Z3 and a ZZ9000, my boot screen was broken.
+of two BigRAM Z3 cards and a ZZ9000, my boot screen was broken. Annoying.
 
 So I disassembled the app, found the error, fixed it, and wrote this quick & dirty
 patcher application to correct it.
