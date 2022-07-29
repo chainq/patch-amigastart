@@ -1,0 +1,26 @@
+Short:        Fix a bug in AmigaStart
+Author:       charlie@amigaspirit.hu (Karoly Balogh)
+Uploader:     charlie@amigaspirit.hu (Karoly Balogh)
+Type:         util/boot
+Version:      1.0
+Requires:     68020+
+Architecture: m68k-amigaos >= 3.0
+
+This small patcher fixes a bug in AmigaStart, that results
+in broken size output when more than 655350KiB (640MiB) of
+Fast Memory is available.
+
+This patcher is not endorsed or acknowledged or associated
+with the creator of AmigaStart, Ian J. Einman.
+
+Use at your own risk. Free Pascal sources included.
+
+How-To:
+-------
+
+Put the "patchas" binary next to your AmigaStart binary and
+execute it. The resulting "amigastart.new" binary will be
+the patched one. Use that from then on.
+
+See also the contents of sources/README.md for all the gory
+details.

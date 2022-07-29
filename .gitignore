@@ -4,6 +4,7 @@
 *.tmp
 *.dis*
 patchas
+!aminet/patchas
 testcode
 amigastart*
 m68k-elf-objdump
